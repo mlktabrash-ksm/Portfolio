@@ -1,0 +1,101 @@
+
+#hobby {
+    text-align: center;
+    margin: 60px auto 40px;
+    max-width: 1100px;
+    padding: 20px;
+}
+
+#hobby h1 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 400;
+    color: #f7dce7;
+    margin-bottom: 45px;
+}
+
+#hobby p {
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #f7dce7;
+}
+
+.hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.hobby-card {
+    background: #1a0d12;
+    border: 1px solid #ff69b4;
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+    box-shadow:
+        0 0 10px #ff69b4,
+        0 0 25px rgba(255, 105, 180, 0.5);
+    transition: all 0.35s ease;
+    cursor: pointer;
+}
+
+.hobby-card img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+#hobby h2 {
+    color: #ff69b4;
+    font-size: 24px;
+}
+
+.hobby-card:hover {
+    box-shadow:
+        0 0 20px #ff69b4,
+        0 0 35px rgba(255, 105, 180, 0.7);
+}
+
+
+
+.hobby-modal {
+    background: #1a0d12;
+    color: white;
+    border: 2px solid #ff69b4;
+    border-radius: 25px;
+    padding: 40px;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 25px #ff69b4;
+}
+
+.hobby-modal::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.hobby-modal h2 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.hobby-modal p {
+    color: #f7dce7;
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 768px) {
+    .hobby-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #hobby h1 {
+        font-size: 38px;
+    }
+}

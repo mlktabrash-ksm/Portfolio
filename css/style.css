@@ -1,0 +1,124 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 990px;
+  margin: 30px auto;
+  font-family: "Bodoni Moda", serif;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+  font-style: italic;
+  border-radius: 60px;
+  border: 3px solid #ffb6c9;
+  box-shadow:
+    0 0 10px #ff69b4,
+    0 0 25px rgba(255, 105, 180, 0.5),
+    0 0 10px rgba(255, 182, 201, 0.15);
+}
+
+nav :hover {
+   color: #ff69b4;
+}
+.logo2 {
+  max-height: 45px;
+  width: auto;
+  filter: drop-shadow(0 0 8px #ff69b4);
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: #f7dce7;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at 60% 60%,
+      rgba(255, 105, 180, 0.15) 0%,
+      rgba(219, 39, 119, 0.08) 40%,
+      transparent 70%
+    ),
+    radial-gradient(circle at 85% 20%, #2a1420 0%, #11070c 50%, #050204 100%);
+}
+.foto {
+  width: 250px;
+  height: 350px;
+  filter: drop-shadow(0 0 12px #ff69b4);
+  margin: 10px auto;
+}
+.intro {
+  display: flex;
+  max-width: 1100px;
+  margin: 80px auto;
+}
+.intro-tekst h1 {
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
+  font-size: 65px;
+  color: #f7dce7;
+}
+.intro-tekst p {
+  font-family: "Bodoni Moda", serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+  color: #f7dce7;
+  max-width: 550px;
+}
+.quick-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.quick-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 150px;
+
+  background: rgba(25, 10, 18, 0.85);
+  border: 3px solid #ffb6c9;
+  border-radius: 15px;
+
+  box-shadow:
+    0 0 10px #ff69b4,
+    0 0 25px rgba(255, 105, 180, 0.5);
+  color: #f7dce7;
+  text-decoration: none;
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
+}
+
+.quick-links a:hover {
+  color: #ff69b4;
+  box-shadow: 0 0 20px #ff69b4;
+}
+.quick-links h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+footer {
+  text-align: end;
+  margin-top: 80px;
+
+  background: rgba(25, 10, 18, 0.85);
+  border-top: 1px solid #ffb6c9;
+
+  box-shadow: 0 -3px 15px rgba(255, 105, 180, 0.3);
+
+  color: #f7dce7;
+  font-family: "Bodoni Moda", serif;
+  font-size: 16px;
+  font-style: italic;
+}
